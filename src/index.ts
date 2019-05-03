@@ -3,7 +3,7 @@ import Koa from 'koa'
 import { ApolloServer, gql } from 'apollo-server-koa'
 import cors from '@koa/cors'
 //TODO: env var
-const port = process.env.port || 8080
+const port = process.env.PORT || 8080
 
 // Construct a schema, using GraphQL schema language
 const typeDefs = gql`
