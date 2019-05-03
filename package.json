@@ -1,6 +1,6 @@
 {
   "name": "starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A quick up and running node ts project",
   "main": "index.ts",
   "scripts": {
